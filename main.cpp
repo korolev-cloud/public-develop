@@ -19,7 +19,7 @@ int main() {
       // объявляем целочисленные переменные и переводим строки часов отправления в числа
       int minutesDeparture = (timeDeparture[3] - '0') * 10 + (timeDeparture[4] - '0'); 
       // объявляем целочисленные переменные и переводим строки минут отправления в числа; 
-      int minuteAll;
+      int minuteAll = 98;
       cout << minuteAll;
       int hourArrival = (timeArrival[0] - '0') * 10 + (timeArrival[1] - '0');
       // объявляем целочисленные переменные и переводим строки часов убытия в числа
